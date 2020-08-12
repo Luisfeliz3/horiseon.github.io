@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en-us">
 
-You can use the [editor on GitHub](https://github.com/Luisfeliz3/horiseon.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Changed to title of the page insted of "Website" -->
+    <title>Horiseon</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body >
+    <header class="header" >
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
+            <ul>
+                <li>
+                     <!-- added title attribute and arial-label for accessibility and desc of link -->
+                    <a href="#search-engine-optimization" aria-label="primary" title = "search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                     <!-- added title attribute and arial-label for accessibility and desc of link -->
+                    <a href="#online-reputation-management" aria-label="secondary" title ="online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                     <!-- added title attribute and arial-label for accessibility and desc of link -->
+                    <a href="#social-media-marketing" aria-label="tertiary" title = "social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero"></div>
+    <!-- changed tag to a semantic tag -->
+    <main class="content">
+         <!-- changed tag to a semantic tag -->
+        <section id="search-engine-optimization" class="search-engine-optimization">
+             <!-- added alt attribute and arial-label for accessibility and desc of image -->
+            <img src="./assets/images/search-engine-optimization.jpg" aria-label="search-engine-optimization" alt="search-engine-optimization" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they
+                travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
+                your visibility and find the right customers for your business.
+            </p>
+        </section>
+        <!-- changed tag to a semantic tag -->
+        <section id="online-reputation-management" class="online-reputation-management">
+             <!-- added alt attribute and arial-label for accessibility and desc of image -->
+            <img src="./assets/images/online-reputation-management.jpg" aria-label="online-reputation-management" alt="online-reputation-management" class="float-right" />
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an
+                internet connection to say whatever they want about your business. Online Reputation Management gives
+                you the control over what potential customers see when they search for your business.
+            </p>
+        </section>
+        <!-- changed tag to a semantic tag -->
+        <section id="social-media-marketing" class="social-media-marketing">
+             <!-- added alt attribute and arial-label for accessibility and desc of image -->
+            <img src="./assets/images/social-media-marketing.jpg" aria-label="social-media-marketing" alt="social-media-marketing" class="float-left" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you
+                determine which platforms are suited to your brand, using analytics to find the right markets and
+                increase your lead generation.
+            </p>
+        </section>
+    </main>
+    <aside class="benefits">
+        <!-- changed tag to a semantic tag -->
+        <section class="benefit-lead">
+            <h3>Lead Generation</h3>
+             <!-- added alt attribute and arial-label for accessibility and desc of link -->
+            <img src="./assets/images/lead-generation.png"  aria-label="lead-generation" alt = "lead-generation"/>
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly
+                to your website.
+            </p>
+        </section>
+        <!-- changed tag to a semantic tag -->
+        <section class="benefit-brand">
+            <h3>Brand Awareness</h3>
+             <!-- added alt attribute and arial-label for accessibility and desc of link -->
+            <img src="./assets/images/brand-awareness.png" aria-label="brand-awareness" alt ="brand-awareness"/>
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility
+                for your business.
+            </p>
+        </section>
+        <section class="benefit-cost">
+            <h3>Cost Management</h3>
+             <!-- added alt attribute and arial-label for accessibility and desc of link -->
+            <img src="./assets/images/cost-management.png" aria-label="cost-management" alt="cost-management">
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer
+                need to advertise your page.
+            </p>
+        </section>
+        <!-- changed tag to a semantic tag -->
+    </aside>
+    <footer class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+</body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Luisfeliz3/horiseon.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
